@@ -1,0 +1,29 @@
+# Voice config (per-user)
+scripts/.voice-config
+scripts/.voice-config.tmp
+scripts/.voice-enabled
+scripts/.active-backend
+
+# VS Code extension build
+vscode-extension/out/
+vscode-extension/node_modules/
+vscode-extension/*.vsix
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Claude auto-generated
+**/CLAUDE.md

@@ -1,0 +1,14 @@
+{
+  "name": "coding-voice-assistant-mcp",
+  "version": "1.0.0",
+  "description": "Coding Voice Assistant (MCP版) - 音声ガイド付きフルサイクル・コーディングアシスタント。8プロバイダーTTS対応。合議エージェント5体 + 実行エージェント7体 + 8スキル。",
+  "author": {
+    "name": "kubouchiyuya"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kubouchiyuya/coding-voice-assistant-mcp"
+  },
+  "keywords": ["coding", "voice", "assistant", "voicevox", "agent", "design", "review", "test"]
+}

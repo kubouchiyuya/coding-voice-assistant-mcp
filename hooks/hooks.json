@@ -1,0 +1,29 @@
+{
+  "description": "Coding Voice Assistant - 自動音声通知フック（排他制御付き）",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-backend.sh '確認をお願いします' confirm",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-backend.sh 'タスクが完了しました' complete",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
